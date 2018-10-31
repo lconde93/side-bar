@@ -14,6 +14,7 @@
     color: #fff;
     transition: all 0.3s;
     margin-top: 56px;
+    /* border-right: 2px solid black; */
 }
 
 #sidebar a, a:hover, a:focus {
@@ -50,13 +51,17 @@
     display: block;
 }
 #sidebar ul li a:hover {
-    color: #545454;
-    background: #fff;
+    background: black;
+    color: white;
+    /* color: #545454; */
+    /* background: #fff; */
 }
 
 #sidebar ul li.active > a, a[aria-expanded="true"] {
-    color: #fff;
-    background: #545454;
+    background: black;
+    color: white;
+    /* color: #fff;
+    background: #545454; */
 }
 ul ul a {
     font-size: 0.9em !important;
