@@ -1,0 +1,17 @@
+.loader {
+    position: fixed;	
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0.5;	
+    background: #000;
+    display: inline; 
+    z-index: 1050;
+}
+
+#loading-img {
+    background: url('/assets/img/spinner2.gif') center center no-repeat;
+    height: 100%;
+    z-index: 1060;                
+}

@@ -9,6 +9,7 @@ import { HttpModule } from '@angular/http';
 import { AuthService } from '../_auth/auth.service';
 import { SideBarComponent } from './side-bar/side-bar.component';
 import { NavbarComponent } from './navbar/navbar.component';
+import { LoaderComponent } from './loader/loader.component';
 
 @NgModule({
 	imports: [
@@ -20,7 +21,8 @@ import { NavbarComponent } from './navbar/navbar.component';
 	],
 	declarations: [		
 		SideBarComponent, 
-		NavbarComponent
+		NavbarComponent, 
+		LoaderComponent
 	], 
 	exports: [
 		FormsModule,
@@ -28,7 +30,8 @@ import { NavbarComponent } from './navbar/navbar.component';
 		HttpModule,
 		RouterModule,
 		SideBarComponent,
-		NavbarComponent
+		NavbarComponent,
+		LoaderComponent
 	], 
 	providers: []
 })
